@@ -1,0 +1,17 @@
+package com;
+
+import com.Hellos;
+
+public class HelloWorld {
+
+    public static void main(String[] args) {
+        // Prints "Hello, World" to the terminal window.
+        for (String msg: Hellos.hellos()) {
+            System.out.println(msg);
+        }
+
+    }
+
+}
+
+
