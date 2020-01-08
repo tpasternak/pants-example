@@ -4,3 +4,9 @@ jvm_binary(name = 'main-scala-bin',
   main = 'com.Hello',
   basename = 'hello-scala-example',
 )
+
+junit_tests(
+  name = 'hello-tests-scala',
+  sources = ['tests/*.scala']
+
+)
