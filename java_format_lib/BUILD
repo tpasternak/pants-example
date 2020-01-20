@@ -1,4 +1,3 @@
-# noinspection PyInterpreter
 java_library(
   name='java_format_lib',
   dependencies = [  ],

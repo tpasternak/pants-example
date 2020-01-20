@@ -7,9 +7,7 @@ public class HelloWorld {
         for (String msg: Hellos.hellos()) {
             System.out.println(msg);
         }
-
     }
-
 }
 
 
