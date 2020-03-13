@@ -1,6 +1,6 @@
 jvm_binary(name = 'main-bin',
   dependencies = ["java_hellos_lib"
-                 ,"java_thrift"
+
    ],
   sources = globs('com/**/*.java'),
   main = 'com.HelloWorld',

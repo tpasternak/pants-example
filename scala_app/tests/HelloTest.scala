@@ -12,6 +12,5 @@ class HelloTest {
       val value2=System.getProperty("name2");
       assertEquals("name23", value2);
 
-
   }
 }

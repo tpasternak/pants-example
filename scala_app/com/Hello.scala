@@ -1,7 +1,7 @@
 package com;
 
 object MyClass2 {
-  def apply(x: Int) = 1
+  def apply(x: Int) = 123
 }
 
 object MyClass1 {
@@ -19,7 +19,7 @@ object Hello extends App {
        val q = MyClass1(0)("xyz")
       val x = MyClass1(0)("xyz")
      MyClass1(0)("ghi")
-    MyClass1(0).ccc 
+    MyClass1(0).ccc
    MyClass2(1)
-  println("Hello") 
+  println("Hello")
 }
