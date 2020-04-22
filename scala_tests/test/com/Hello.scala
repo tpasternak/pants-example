@@ -1,9 +1,7 @@
 package com
 
-import org.junit.runner.RunWith
+import org.scalatest.flatspec.AnyFlatSpec
 
-
-@RunWith(classOf[JUnitRunner])
-class MySuite extends FunSuite {
+class MySuite extends AnyFlatSpec {
     println("Auto-test!")
   }
