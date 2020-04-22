@@ -1,7 +1,5 @@
 jvm_binary(name = 'main-bin',
-  dependencies = ["java_hellos_lib"
-
-   ],
+  dependencies = ["java_hellos_lib"],
   sources = globs('com/**/*.java'),
   main = 'com.HelloWorld',
   basename = 'hello-example',
@@ -9,5 +7,5 @@ jvm_binary(name = 'main-bin',
 
 junit_tests(
   name = 'hello-tests',
-  sources = ['tests/HelloTest.java']
+  sources = ['tests/**/*.java']
 )
