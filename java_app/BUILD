@@ -1,6 +1,6 @@
-jvm_binary(name = 'main-bin',
+jvm_binary(name = 'main-bins4',
   dependencies = ["java_hellos_lib"],
-  sources = globs('com/**/*.java'),
+  sources = ['com/**/*.java'],
   main = 'com.HelloWorld',
   basename = 'hello-example',
 )
