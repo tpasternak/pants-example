@@ -9,6 +9,6 @@ public class HelloTest {
       assertEquals("name5511", value);
 
       String value2=System.getProperty("name2");
-      assertEquals("name23", value2);
+      assertEquals("namonetonete23", value2);
   }
 }
