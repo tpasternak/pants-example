@@ -1,4 +1,3 @@
-package com
 import org.junit.runner.RunWith
 import org.scalatest.TestSuite
 import org.scalatestplus.junit.JUnitRunner
