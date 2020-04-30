@@ -23,5 +23,5 @@ junit_tests(name = 'scala_tests',
 	"scala_tests:junit_lib",
         "scala_lib"
       ],
-  sources = globs('test/**/*.scala')
+  sources = ['*.scala']
 )
