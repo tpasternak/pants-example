@@ -12,9 +12,15 @@ jar_library(
   ],
 )
 
+jar_library(
+  name='guava_lib',
+  jars=[
+    jar(org='com.google.guava', name='guava', rev='25.1-jre')
+  ],
+)
+
 junit_tests(
   name = 'hello-tests',
   sources = ['tests/**/*.java'],
-  dependencies = ["java_hellos_lib", "java_app:junit_lib"],
-
+  dependencies = ["java_hellos_lib", "java_app:junit_lib", "java_app:guava_lib"],
 )
