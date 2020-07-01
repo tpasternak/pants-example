@@ -1,0 +1,3 @@
+[GLOBAL]
+backend_packages.remove = ['pants.backend.python.lint.isort']
+v2=false
