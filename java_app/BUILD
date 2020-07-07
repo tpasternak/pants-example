@@ -5,6 +5,12 @@ jvm_binary(name = 'main-bins4',
   basename = 'hello-example',
 )
 
+java_library(name = 'main-lib',
+  dependencies = ["java_hellos_lib"],
+  sources = ['lib/*.java'],
+)
+
+
 jar_library(
   name='junit_lib',
   jars=[
